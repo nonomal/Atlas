@@ -1,70 +1,58 @@
 name: Feature request
-description: Create a feature request to help us inprove Atlas.
-labels: enhancement, pending
-title: "[FEATURE REQUEST] - "
+description: Create a feature request to help us improve Atlas.
+title: "[FEATURE] - "
+
+labels:
+- enhancement
+
 body:
-  - type: markdown
-    attributes:
-      value: |
-        A clear and concise description of your feature request.
-
-  - type: dropdown
-    attributes:
-      label: What is your Feature Request regarding to?
-      options:
-        - The Atlas OS
-        - Documentation/README
-        - Other, specify below
-    validations:
+- type: checkboxes
+  attributes:
+    label: Before continuing...
+    description: Please ensure you meet the following criteria. If not, the maintainers reserve the right to close and lock your issue.
+    options:
+    - label: "I agree to follow Atlas' [Code of Conduct](https://github.com/Atlas-OS/.github/blob/main/profile/CODE_OF_CONDUCT.md)"
+      required: true
+    - label: "I have searched our [issue tracker](https://github.com/Atlas-OS/Atlas/issues?q=is%3Aissue) to verify that the issue hasn't been reported already"
+      required: true
+    - label: "I have searched the [Atlas documentation](https://docs.atlasos.net) beforehand for a solution"
+      required: true
+    - label: "I am on the latest version of Atlas, and didn't do an unsupported upgrade"
       required: true
 
-  - type: input
-    attributes:
-      label: Other
-      description: Only enter if you choosed "Other"
-      placeholder: |
-        e.g. the...
-    validations:
+- type: dropdown
+  attributes:
+    label: What is your feature request regarding to?
+    options:
+    - Atlas Playbook
+    - Other (submit it in https://github.com/Atlas-OS/Atlas/discussions)
+  validations:
+    required: true
 
-  - type: textarea
-    attributes:
-      label: Is your feature request related to a problem? Please describe.
-      description: A short description of the bug.
-      placeholder: |
-        A clear and concise description of what the problem is. E.g. When I open [blank] it hangs/freezes.
-    validations:
-      required: true
+- type: textarea
+  attributes:
+    label: Is your feature request related to a problem? Please describe.
+    placeholder: |
+      e.g. I always wanted Atlas to...
+  validations:
+    required: true
 
-  - type: textarea
-    attributes:
-      label: Describe the solution you would like.
-      placeholder: |
-        A clear and concise description of what you want to happen.
-    validations:
-      required: true
+- type: textarea
+  attributes:
+    label: Describe the solution you would like.
+    placeholder: |
+      e.g. I would like Atlas to add...
+  validations:
+    required: true
 
-  - type: textarea
-    attributes:
-      label: Describe alternatives you have considered.
-      description: If you have found a temporary fix, list it here.
-    validations:
-      required: true
+- type: textarea
+  attributes:
+    label: Describe alternatives you have considered.
+    description: If you have found a temporary fix, list it here.
+  validations:
+    required: true
 
-  - type: checkboxes
-    attributes:
-      label: Requisites
-      description: |
-        To rule out invalid issues, confirm and check each one of the checkboxes.
-      options:
-        - label: This is not a support issue or a question. For any support, questions or help, join our [Discord server](https://discord.atlasos.net).
-          required: true
-        - label: I performed a [cursory search of the issue tracker](https://github.com/Atlas-OS/Atlas/issues?q=is%3Aissue) to avoid opening a duplicate issue.
-          required: true
-        - label: I understand that not filling out this template will lead to the issue being closed.
-          required: true
-
-  - type: textarea
-    attributes:
-      label: Additional context.
-      description: Add any other context or screenshots about the feature request here.
-    validations:
+- type: textarea
+  attributes:
+    label: Additional context.
+    description: Add any other context or screenshots about the feature request here.
