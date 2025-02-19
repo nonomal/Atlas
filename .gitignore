@@ -1,8 +1,5 @@
 # MacOS
 .DS_Store
 
-# folder config
-desktop.ini
-
-# drivers directory
-src/Drivers/
+# Playbooks
+*.apbx

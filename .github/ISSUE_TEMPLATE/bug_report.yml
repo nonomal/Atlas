@@ -1,84 +1,80 @@
 name: Bug report
-description: Create a bug report to help us inprove Atlas.
-labels: bug, pending
-title: "[BUG REPORT] - "
+description: Create a bug report to help us improve Atlas.
+title: "[BUG] - "
+
+labels: 
+- bug
+
 body:
-  - type: markdown
-    attributes:
-      value: |
-        A clear and concise description of what the bug is.
-
-  - type: textarea
-    attributes:
-      label: Description
-      description: A short description of the bug.
-    validations:
+- type: checkboxes
+  attributes:
+    label: Before continuing...
+    description: Please ensure you meet the following criteria. If not, the maintainers reserve the right to close and lock your issue.
+    options:
+    - label: "I agree to follow Atlas' [Code of Conduct](https://github.com/Atlas-OS/.github/blob/main/profile/CODE_OF_CONDUCT.md)"
+      required: true
+    - label: "I have searched our [issue tracker](https://github.com/Atlas-OS/Atlas/issues?q=is%3Aissue) to verify that the issue hasn't been reported already"
+      required: true
+    - label: "I have searched the [Atlas documentation](https://docs.atlasos.net) beforehand for a solution"
+      required: true
+    - label: "I am on the latest version of Atlas, and didn't do an unsupported upgrade"
       required: true
 
-  - type: textarea
-    attributes:
-      label: Steps to reproduce (add screenshots if applicable)
-      placeholder: |
-        1. [First step]
-        2. [Second step]
-        3. [And so on...]
-    validations:
-      required: true
+- type: textarea
+  attributes:
+    label: Description
+    description: A short description of the bug.
+  validations:
+    required: true
 
-  - type: textarea
-    attributes:
-      label: Expected behavior
-      description: What you expected to happen.
-    validations:
-      required: true
+- type: textarea
+  attributes:
+    label: Steps to reproduce
+    description: The steps required to reproduce this bug (add screenshots if applicable).
+    placeholder: |
+      1. [First step] (Screenshot 1)
+      2. [Second step] (Screenshot 2)
+      3. [And so on...] (Screenshot X)
+  validations:
+    required: true
 
-  - type: textarea
-    attributes:
-      label: Actual behavior (add screenshots if applicable)
-      description: What happened.
-    validations:
-      required: true
+- type: textarea
+  attributes:
+    label: Expected behavior
+    description: What you expect to happen (add screenshots if applicable).
+  validations:
+    required: true
 
-  - type: dropdown
-    attributes:
-      label: Atlas Version
-      options:
-        - Atlas 10 22H2
-        - Atlas 11 22H2
-        - Atlas 10 Legacy (1803/20H2/21H2)
-        - Tweaked Atlas
-    validations:
-      required: true
+- type: textarea
+  attributes:
+    label: Actual behavior
+    description: What actually happened (add screenshots if applicable).
+  validations:
+    required: true
 
-  - type: textarea
-    attributes:
-      label: Desktop information
-      description: Your desktop information is needed for us to define the problem.
-      placeholder: |
-       - Processor [Intel or AMD, include specifics]
-       - RAM amount (8GB, 16GB, 32GB...)
-       - System Drive type (SSD, SHDD or HDD)
-       - Graphics card (e.g. NVIDIA RTX 4090)
-    validations:
-      required: true
+- type: dropdown
+  attributes:
+    label: Atlas Version
+    description: 'If you''re on v0.4.0, see the workarounds page first: https://github.com/orgs/Atlas-OS/projects/7/views/5'
+    options:
+    - Atlas v0.4.1 for Windows 10 22H2
+    - Atlas v0.4.1 for Windows 11 24H2
+  validations:
+    required: true
 
-  - type: checkboxes
-    attributes:
-      label: Requisites
-      description: |
-        To rule out invalid issues, confirm and check each one of the checkboxes.
-      options:
-        - label: This is not a support issue or a question. For any support, questions or help, join our [Discord server](https://discord.atlasos.net).
-          required: true
-        - label: I performed a [cursory search of the issue tracker](https://github.com/Atlas-OS/Atlas/issues?q=is%3Aissue) to avoid opening a duplicate issue.
-          required: true
-        - label: I checked the [documentation](https://docs.atlasos.net) to understand that the issue I am reporting is not normal behavior.
-          required: true
-        - label: I understand that not filling out this template will lead to the issue being closed.
-          required: true
+- type: textarea
+  attributes:
+    label: Desktop information
+    description: Your hardware specification is needed for us to define the problem.
+    placeholder: |
+      - Processor [include brand and specs]
+      - RAM [include size and generation]
+      - Storage [include size, brand, and type]
+      - GPU [include brand, specs, driver version]
+  validations:
+    required: true
 
-  - type: textarea
-    attributes:
-      label: Additional content
-      description: Anything you want to add.
-    validations:
+- type: textarea
+  attributes:
+    label: Additional content
+    description: Anything you want to add.

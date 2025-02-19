@@ -1,99 +1,69 @@
 <h1 align="center">
-  <a href="http://atlasos.net"><img src="https://cdn.jsdelivr.net/gh/Atlas-OS/Atlas@main/img/banner.png" alt="Atlas" width="900" style="border-radius: 30px"></a>
+  <a href="http://atlasos.net" target="_blank"><img src="https://gcore.jsdelivr.net/gh/Atlas-OS/branding@main/banners/banner-v3.png" alt="Atlas" width="800"></a>
 </h1>
-
-<h4 align="center">An open and transparent operating system, designed to optimize performance, privacy and stability.</h4>
+  <p align="center">
+    <a href="https://github.com/Atlas-OS/Atlas/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/atlas-os/atlas?style=for-the-badge&logo=github&color=1A91FF"/></a>
+    <a href="https://github.com/Atlas-OS/Atlas/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/atlas-os/atlas?style=for-the-badge&color=1A91FF" /></a>
+    <a href="https://github.com/Atlas-OS/Atlas/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/atlas-os/atlas?style=for-the-badge&color=1A91FF" /></a>
+    <a href="https://github.com/Atlas-OS/.github/blob/main/profile/CODE_OF_CONDUCT.md"><img alt="Code of Conduct" src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg?style=for-the-badge&color=1A91FF" /></a>
+  </p>
+<p align="center">A transparent and lightweight modification to Windows, designed to optimize performance, privacy and usability.</p>
 
 <p align="center">
-  <a href="https://atlasos.net">Website</a>
+  <a href="https://atlasos.net" target="_blank">🌐 Website</a>
   •
-  <a href="https://docs.atlasos.net">Documentation</a>
+  <a href="https://docs.atlasos.net" target="_blank">📚 Documentation</a>
   •
-  <a href="https://discord.atlasos.net" target="_blank">Discord</a>
+  <a href="https://discord.atlasos.net" target="_blank">☎️ Discord</a>
   •
-  <a href="https://forum.atlasos.net">Forum</a>
+  <a href="https://github.com/Atlas-OS/Atlas/discussions" target="_blank">💬 Discussions</a>
 </p>
 
-# Translations
+## 📚 **Important Documentation**
+- [Installation](https://docs.atlasos.net/getting-started/installation/)
+- [FAQ & Common Issues](https://docs.atlasos.net/faq-and-troubleshooting/removed-features/)
+- [Contribution Guidelines](https://docs.atlasos.net/contributions/)
+- [Branding](https://docs.atlasos.net/branding/)
 
-<kbd>[<img title="Deutsch" alt="Deutsch" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/de.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_de_DE.md)</kbd>
-<kbd>[<img title="Español" alt="Español" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/es.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_es_ES.md)</kbd>
-<kbd>[<img title="Française" alt="Française" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/fr.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_fr_FR.md)</kbd>
-<kbd>[<img title="Bahasa Indonesia" alt="Bahasa Indonesia" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/id.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_id_ID.md)</kbd>
-<kbd>[<img title="Tagalog" alt="Tagalog" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/ph.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_ph_PH.md)</kbd>
-<kbd>[<img title="Polski" alt="Polski" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/pl.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_pl_PL.md)</kbd>
-<kbd>[<img title="Русский" alt="Русский" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/ru.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_ru_RU.md)</kbd>
-<kbd>[<img title="Svenska" alt="Svenska" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/se.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_sv_SE.md)</kbd>
-<kbd>[<img title="Türkçe" alt="Türkçe" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/tr.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_tr_TR.md)</kbd>
-<kbd>[<img title="Українська" alt="Українська" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/ua.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_ua_UA.md)</kbd>
-<kbd>[<img title="Tiếng Việt" alt="Tiếng Việt" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/vn.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_vi_VN.md)</kbd>
-<kbd>[<img title="中文（简体）" alt="中文（简体）" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/cn.svg" width="22">](https://github.com/Atlas-OS/Atlas/blob/main/translations/README_zh_CN.md)</kbd>
+## 🤔 What is Atlas?
 
-#### _Do you want to help us by translating documents? If so, please follow this [README](translations/README.md)._
+AtlasOS, or Atlas, is an open-source project that enhances Windows by conveniently applying privacy, usability, and performance optimizations, all while maintaining functionality and [customizability](https://docs.atlasos.net/getting-started/post-installation/atlas-folder/general-configuration/).
 
-## 🤔 **What is Atlas?**
+## 👀 Why Atlas?
+### 🔒 Enhanced Privacy
+Atlas removes the majority of telemetry embedded within Windows and implements numerous group policies to minimize data collection. However, it cannot ensure privacy outside the scope of Windows, such as browsers and other third-party applications.
 
-Atlas is a modified version of Windows 10, which removes nearly all the drawbacks of Windows that negatively affect gaming performance.
-We are also a good option to reduce system latency, network latency, input lag, and keeping your system private while focusing on performance.
-You can learn more about Atlas on our official [Website](https://atlasos.net).
+### 📈 Optimized Performance
+Atlas strikes a balance between performance and compatibility. It implements numerous meaningful changes to improve Windows performance and responsiveness without breaking essential features. Atlas will not do tweaks for a placebo effect or marginal gains, making Atlas more stable and compatible.
 
-## 📚 **Table of contents**
+### 🛡️ Security Features
+Most Windows modifications remove key security features most users need to maintain a secure system. On the other hand, Atlas allows users to customize their security at their own risk while informing users about each option's [pros and cons](https://docs.atlasos.net/getting-started/post-installation/atlas-folder/security/).
 
-- Getting Started
-  - [Installation](https://docs.atlasos.net/Getting%20started/Installation)
-  - [Other installation methods](https://docs.atlasos.net/Getting%20started/Other%20installation%20methods/Install%20with%20no%20USB)
-  - [Post-Installation](https://docs.atlasos.net/Getting%20started/Post-Installation/Drivers)
+Some optional security features are:
 
-- Troubleshooting
-  - [Removed Features](https://docs.atlasos.net/Troubleshooting/Removed%20features)
-  - [Scripts](https://docs.atlasos.net/Troubleshooting/Scripts)
+- Windows Defender & SmartScreen
+- Windows Update
+  - Automatic updates are togglable
+- CPU mitigations
+- User Account Control
+- Core isolation features
 
-- FAQ
-  - [Install](https://docs.atlasos.net/FAQ/Installation)
-  - [Contribute](https://docs.atlasos.net/FAQ/Contribute)
+### ✅ Increased Usability
+Atlas applies many modifications and default settings to make Windows easier to use. This includes removing commonly unneeded applications (which are reinstallable), configuring many aspects of the interface, disabling advertisements, and much more.
 
-## 👀 **Why Atlas?**
+### 🔍 Open Source and Transparent
 
-### 🔒 More private
-Stock Windows contains tracking service that collects your data and upload them to Microsoft.
-Atlas removes all types of tracking embedded within Windows and implements numerous group policies to minimize data collection. 
+Unlike custom Windows ISOs, Atlas is more straightforward to audit due to the use of [AME Wizard](https://ameliorated.io). AME Wizard is controlled by Playbooks, a customizable script-esque system that can perform various tasks.
 
-(Note. We cannot ensure the security for things outside the scope of Windows, such as browsers, third-party apps.)
+Playbooks are renamed **.zip** archives, with the password [`malte`](https://docs.ameliorated.io/developers/getting-started/creation.html). As they primarily consist of plain text, Playbooks enable transparency, unlike custom Windows ISOs, which have many entry points for malicious activity. The few binaries in the Playbook are open source in our [`utilities` repository](https://github.com/Atlas-OS/utilities), with the [hashes listed here](https://github.com/Atlas-OS/Atlas/blob/main/src/playbook/Executables/AtlasModules/README.md).
 
-### 🛡️ More secure
-Dowloading a modified ISO from the internet is risky. Not only it can contain malicious script, it also may not have the latest security patches that can put your computer under serious security risks. 
+Although the GUI is not open source for AME Wizard, AME Wizard's entire backend (called [TrustedUninstaller](https://github.com/Ameliorated-LLC/trusted-uninstaller-cli)) is open source under MIT, which contains each action used to run Atlas. The Atlas Playbook is open source under the [GPLv3 license](https://github.com/Atlas-OS/Atlas/blob/main/LICENSE).
 
-Atlas is different. We use [AME Wizard](https://ameliorated.io) to install, and all the scripts we use are open-sourced here in our repository. You can also apply the latest security updates before installing Atlas, keeping your system safe and secure.
-
-### 🚀 More space
-Pre-installed applications and other insignifcant components are removed from Atlas. Despite the possibility of compatibility issues, this significantly reduces the install size, and makes your system more fluent. Therfore, functionalities such as Windows Defender, and similar are stripped completely.
-Check out what else we have removed in our [FAQ](https://docs.atlasos.net/Troubleshooting/Removed%20features).
-
-### ✅ More performance
-Some tweaked systems on the internet has tweaked too far away, breaking compatibility for main features such as Bluetooth, Wi-Fi, and so on.
-Atlas is on the sweet point. Getting more performance, but also maintaing a good compatibility.
-
-Some of the many changes that we have done to improve Windows have been listed below:
-- Customized power scheme
-- Reduced amount of services and drivers
-- Disabled audio exclusive
-- Disabled unneeded devices
-- Disabled power saving (for personal computers)
-- Disabled performance-hungry security mitigations
-- Automatically enabled MSI mode on all devices
-- Boot configuration optimization
-- Optimized process scheduling
-
-### 🔒 Legal
-Many custom Windows OSes distribute their systems by providing a tweaked ISO of Windows. Not only it violate [Microsoft's Terms of Service](https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_English.htm), but it is also not a safe way to install.
-
-Atlas partnered with Windows Ameliorated Team to provide users a safer and legal way to install, the [AME Wizard](https://ameliorated.io). By using this, Atlas fully complies to [Microsoft's Terms of Service](https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_English.htm).
+### 🔒 Legal Compliance
+As Atlas doesn't redistribute a modified Windows ISO, it complies with [Windows's Usage Terms](https://www.microsoft.com/en-us/useterms/#areaheading-uid6738235). In addition, Atlas does not alter activation in Windows.
 
 ## 🎨 Brand kit
-Feeling creative? Want to create your own Atlas wallpaper with some original creative designs? Well our brand kit has got you covered!
-The Atlas brand kit is accessible to the public, you can download it [here](https://cdn.jsdelivr.net/gh/Atlas-OS/Atlas@main/img/brand-kit.zip) and make something spetacular!
+Want to create your own Atlas wallpaper with some original creative designs? Visit our [Branding Kit on Docs](https://docs.atlasos.net/branding/) and share your creations on our [GitHub Discussions](https://github.com/Atlas-OS/Atlas/discussions/categories/community-artwork)!
 
-We also have a dedicated area on our [Forum](https://forum.atlasos.net/t/art-showcase), so you can share your creations with other creative geniuses and maybe even spark some inspiration! You can also find creative wallpapers that other users share here too!
-
-## ⚠️ Disclaimer
-AtlasOS is **NOT** a pre-activated version of Windows, you **must** use a genuine key to activate Windows. Before you buy a Windows 10 (Pro OR Home) license, make sure the seller is trusted and the key is legitimate, no matter where you buy it. Atlas is based on Microsoft Windows, by using Windows you agree to [Microsoft's Terms of Service](https://www.microsoft.com/en-us/Useterms/Retail/Windows/10/UseTerms_Retail_Windows_10_English.htm).
+## 💙 Contributors
+<a href="https://github.com/Atlas-OS/Atlas/graphs/contributors" target="_blank"><img src="https://contrib.rocks/image?repo=Atlas-OS/Atlas&columns=18" alt="Avatars of all contributors"></a>
